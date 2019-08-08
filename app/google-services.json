@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "319176792510",
+    "firebase_url": "https://blogapp-52af5.firebaseio.com",
+    "project_id": "blogapp-52af5",
+    "storage_bucket": "blogapp-52af5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319176792510:android:7c9500df22a3f51c",
+        "android_client_info": {
+          "package_name": "com.libgdx.ahmed_fathy.socialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319176792510-g42d1d6fd9b7b5g50u1hvup3bv8joc1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0l1nCcXAnuHDNGC8qxxheuaze3iHM-jA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319176792510-g42d1d6fd9b7b5g50u1hvup3bv8joc1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
