@@ -84,7 +84,7 @@ public class PostDetails extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 postDetailsCommentBtn.setEnabled(false);
-                postDetailsComment.setText("");
+
                 DatabaseReference databaseReference = firebaseDatabase.getReference("Comments").child(postKey).push();
                 String comment_content = postDetailsComment.getText().toString();
                 String userID = firebaseUser.getUid();
@@ -105,7 +105,7 @@ public class PostDetails extends AppCompatActivity {
                     }
                 });
 
-
+                postDetailsComment.setText("");
             }
         });
 
